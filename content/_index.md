@@ -11,23 +11,6 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  <!---
-  - block: features
-    content:
-      title: Skills
-      items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
-          icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
-          icon_pack: fas
   - block: experience
     content:
       title: Experience
@@ -40,27 +23,22 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: Internship
+          company: Supernet
+          company_url: 'https://super.net.pk/'
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
+          location: Islamabad
+          date_start: '2021-02-04'
+          date_end: '2021-04-05'
+          description: Worked on Satellite Communication.
+        - title: Internship
+          company: TUKL-NUST Research & Development Center
+          company_url: 'https://tukl.seecs.nust.edu.pk/'
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Islmamabad
+          date_start: '2019-06-10'
+          date_end: '2019-09-31'
+          description: Worked on the Acceleration of Deep Neural Networks on FPGAs.
     design:
       columns: '2'
   - block: accomplishments
@@ -251,5 +229,4 @@ sections:
           captcha: false
     design:
       columns: '2'
-  -->
 ---
