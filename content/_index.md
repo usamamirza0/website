@@ -1,13 +1,13 @@
 ---
 # Leave the homepage title empty to use the site title
-title: Usama Mirza
+title:
 date: 2022-10-24
 type: landing
 
 sections:
   - block: hero
     content:
-      title: Hugo Academic Theme
+      title: Usama Mirza
       image:
         filename: hero-academic.png
       cta:
