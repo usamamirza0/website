@@ -9,7 +9,7 @@ sections:
     content:
       title: Usama Mirza
       image:
-        filename: hero-academic.png
+        filename: computer.jpg
       cta:
         label: '**Get Started**'
         url: https://wowchemy.com/templates/
