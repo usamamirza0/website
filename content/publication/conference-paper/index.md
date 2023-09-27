@@ -45,7 +45,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2308.01096.pdf'
+url_pdf: 'https://arxiv.org/abs/2308.01096'
 url_code: 'https://github.com/icon-lab/FDB'
 url_dataset: ''
 url_poster: ''
