@@ -47,8 +47,8 @@ sections:
           date_end: '2021-04-05'
           description: Worked on Satellite Communication
         - title: Internship
-          company: University X
-          company_url: ''
+          company: TUKL-NUST Research & Development Center
+          company_url: 'https://tukl.seecs.nust.edu.pk/'
           location: California
           date_start: '2016-01-01'
           date_end: '2020-12-31'
