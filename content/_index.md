@@ -42,7 +42,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Publications
+      title: Featured Publications
       filters:
         folders:
           - publication
