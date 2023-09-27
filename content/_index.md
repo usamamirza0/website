@@ -51,8 +51,8 @@ sections:
           company_url: 'https://tukl.seecs.nust.edu.pk/'
           location: Islamabad
           date_start: '2019-06-10'
-          date_end: '2019-09-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          date_end: '2019-09-30'
+          description: Worked on the acceleration of Deep Neural Networks on FPGAs
     design:
       columns: '2'
   - block: accomplishments
