@@ -49,7 +49,7 @@ sections:
         - title: Internship
           company: TUKL-NUST Research & Development Center
           company_url: 'https://tukl.seecs.nust.edu.pk/'
-          location: California
+          location: Islamabad
           date_start: '2016-01-01'
           date_end: '2020-12-31'
           description: Taught electronic engineering and researched semiconductor physics.
