@@ -52,7 +52,7 @@ sections:
           location: California
           date_start: '2019-06-10'
           date_end: '2019-09-31'
-          description: Worked on the acceleration of Deep Neural Networks on FPGAs
+          description: W
     design:
       columns: '2'
   - block: accomplishments
