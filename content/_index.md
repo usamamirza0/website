@@ -50,8 +50,8 @@ sections:
           company: TUKL-NUST Research & Development Center
           company_url: 'https://tukl.seecs.nust.edu.pk/'
           location: Islamabad
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
+          date_start: '2019-06-10'
+          date_end: '2019-09-31'
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
