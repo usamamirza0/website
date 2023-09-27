@@ -46,13 +46,13 @@ sections:
           date_start: '2021-02-04'
           date_end: '2021-04-05'
           description: Worked on Satellite Communication
-        - title: Professor of Semiconductor Physics
+        - title: Internship
           company: University X
           company_url: ''
           location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          date_start: '2019-06-10'
+          date_end: '2019-09-31'
+          description: Worked on the acceleration of Deep Neural Networks on FPGAs
     design:
       columns: '2'
   - block: accomplishments
