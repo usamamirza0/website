@@ -40,7 +40,7 @@ sections:
     design:
       columns: '2'
   - block: collection
-    id: featured
+    id: publication
     content:
       title: Featured Publications
       filters:
