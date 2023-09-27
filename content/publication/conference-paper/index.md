@@ -14,11 +14,6 @@ authors:
   - Salman UH Dar
   - Tolga Çukur
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-
 date: '2023-08-02T00:00:00Z'
 doi: ''
 
