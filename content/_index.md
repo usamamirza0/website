@@ -42,7 +42,6 @@ sections:
         - title: Internship
           company: Supernet
           company_url: 'https://super.net.pk/'
-          company_logo: org-gc
           location: Islamabad
           date_start: '2021-02-04'
           date_end: '2021-04-05'
