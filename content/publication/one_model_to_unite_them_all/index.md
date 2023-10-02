@@ -15,7 +15,7 @@ authors:
   - Tolga Çukur
 
 date: '2022-07-13T00:00:00Z'
-doi: 'https://doi.org/10.48550/arXiv.2207.06509'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2022-07-13T00:00:00Z'
