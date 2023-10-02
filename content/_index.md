@@ -42,11 +42,22 @@ sections:
   - block: collection
     id: publication
     content:
-      title: Featured Publications
+      title: Journal Publications
       filters:
         folders:
           - publication
         featured_only: true
+    design:
+      columns: '2'
+      view: card
+  - block: collection
+    id: conf
+    content:
+      title: Conference Proceedings
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
     design:
       columns: '2'
       view: card
