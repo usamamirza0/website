@@ -11,6 +11,28 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  - block: collection
+    id: publication
+    content:
+      title: Journal Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
+  - block: collection
+    id: conf
+    content:
+      title: Conference Proceedings
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: card
   - block: experience
     content:
       title: Experience
@@ -39,26 +61,4 @@ sections:
           description: Worked on the acceleration of Deep Neural Networks on FPGAs
     design:
       columns: '2'
-  - block: collection
-    id: publication
-    content:
-      title: Journal Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    id: conf
-    content:
-      title: Conference Proceedings
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: card
 ---
