@@ -34,6 +34,7 @@ sections:
       columns: '2'
       view: card
   - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
