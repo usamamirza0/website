@@ -71,5 +71,9 @@ email: 'usama.mirza.819@gmail.com'
 highlight_name: true
 ---
 
-Introductory text.
+I am a Master’s student in the Electrical and Electronics Engineering department at Bilkent University, working under [Prof. Tolga Cukur](http://kilyos.ee.bilkent.edu.tr/~cukur/). I received my B.Sc. in Electrical Engineering at [National University of Sciences and Technology](https://nust.edu.pk/). 
+
+My interests lie in the field of machine learning and computer vision. I employ deep learning techniques to develop innovative generative models specifically designed for the reconstruction of medical images.
+
+<i class="fas fa-download"></i> Latest version of my curriculum vitae is available <a href="uploads/resume.pdf" target="_blank">here</a>
 {style="text-align: justify;"}
