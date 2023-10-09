@@ -16,7 +16,7 @@ name = "mytheme"
   home_section_even = "rgb(247, 247, 247)"
 
 [dark]
-  background = "#000000"
+  background = "rgb(0, 0, 0)"
   # Primary
   primary = "#bbdefb"
 
