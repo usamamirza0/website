@@ -1,5 +1,5 @@
 # Theme metadata
-name = "Minimal"
+name = "mytheme"
 
 [light]
   # Primary
@@ -16,6 +16,7 @@ name = "Minimal"
   home_section_even = "rgb(247, 247, 247)"
 
 [dark]
+  background = "#000000"
   # Primary
   primary = "#bbdefb"
 
