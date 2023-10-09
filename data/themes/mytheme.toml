@@ -16,9 +16,13 @@ name = "mytheme"
   home_section_even = "rgb(247, 247, 247)"
 
 [dark]
-  background = "rgb(0, 0, 0)"
   # Primary
-  primary = "#0000ff"
+  primary = "#bbdefb"
 
-  link = "#0000ff"
-  link_hover = "#0000ff"
+  link = "#bbdefb"
+  link_hover = "#bbdefb"
+
+  # Backgrounds
+  background = "#000"
+  home_section_odd = "#000000"
+  home_section_even = "#030303"
