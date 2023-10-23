@@ -23,6 +23,6 @@ name = "mytheme"
   link_hover = "#bbdefb"
 
   # Backgrounds
-  background = "#000"
-  home_section_odd = "#000000"
-  home_section_even = "#030303"
+  #background = "#000"
+  #home_section_odd = "#000000"
+  #home_section_even = "#030303"
