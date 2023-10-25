@@ -17,9 +17,9 @@ name = "mytheme"
 
 [dark]
   # Primary
-  primary = "#0087f7"
+  primary = "#00008b"
 
-  link = "#0087f7"
+  link = "#00008b"
   link_hover = "#bbdefb"
 
   # Backgrounds
