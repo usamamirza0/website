@@ -28,6 +28,6 @@ name = "mytheme"
   menu_text_active = "#269dff"
 
   # Backgrounds
-  #background = "#000"
+  background = "#fff"
   home_section_odd = "#000000"
   home_section_even = "#111111"
