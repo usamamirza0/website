@@ -22,11 +22,10 @@ name = "mytheme"
   primary = "#269dff"
 
   link = "#269dff"
-  link_hover = "#2626ff"#"#bbdefb"
+  link_hover = "#2666ff"#"#bbdefb"
 
   menu_primary = "#000"
   menu_text_active = "#269dff"
-  menu_title_hover = "#269dff"
 
   # Backgrounds
   #background = "#000"
