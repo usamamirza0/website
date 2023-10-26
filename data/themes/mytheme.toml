@@ -25,6 +25,7 @@ name = "mytheme"
   link_hover = "#bbdefb"
 
   menu_primary = "#000"
+  menu_text_active = "#269dff"
 
   # Backgrounds
   #background = "#000"
