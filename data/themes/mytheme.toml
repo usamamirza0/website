@@ -24,6 +24,8 @@ name = "mytheme"
   link = "#269dff"
   link_hover = "#bbdefb"
 
+  menu_primary = "#000"
+
   # Backgrounds
   #background = "#000"
   #home_section_odd = "#000000"
