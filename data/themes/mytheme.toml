@@ -22,7 +22,7 @@ name = "mytheme"
   primary = "#269dff"
 
   link = "#269dff"
-  link_hover = "#bbdefb"
+  link_hover = "#2626ff"#"#bbdefb"
 
   menu_primary = "#000"
   menu_text_active = "#269dff"
