@@ -22,12 +22,12 @@ name = "mytheme"
   primary = "#269dff"
 
   link = "#269dff"
-  link_hover = "#2666ff"#"#bbdefb"
+  link_hover = "#2666ff"
 
   menu_primary = "#000"
   menu_text_active = "#269dff"
 
   # Backgrounds
   #background = "#000"
-  #home_section_odd = "#000000"
+  home_section_odd = "#000000"
   #home_section_even = "#030303"
