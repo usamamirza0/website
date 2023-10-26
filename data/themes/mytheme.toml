@@ -5,8 +5,7 @@ name = "mytheme"
   # Primary
   primary = "#1565c0"
 
-  #link_hover = "#0000ff"
-  link_hover_decoration = "underline"
+  link_hover = "#0000ff"
 
   # Menu
   menu_primary = "#fff"
@@ -23,8 +22,7 @@ name = "mytheme"
   primary = "#269dff"
 
   link = "#269dff"
-  #link_hover = "#2666ff"
-  link_hover_decoration = "underline"
+  link_hover = "#2666ff"
 
   menu_primary = "#000"
   menu_text_active = "#269dff"
