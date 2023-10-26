@@ -5,6 +5,8 @@ name = "mytheme"
   # Primary
   primary = "#1565c0"
 
+  link_hover = "#0000ff"
+
   # Menu
   menu_primary = "#fff"
   menu_text = "#34495e"
