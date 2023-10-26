@@ -35,6 +35,7 @@ sections:
       view: card
   - block: experience
     id: experience
+    background: #000
     content:
       title: Experience
       # Date format for experience
