@@ -30,4 +30,4 @@ name = "mytheme"
   # Backgrounds
   #background = "#000"
   home_section_odd = "#000000"
-  #home_section_even = "#030303"
+  home_section_even = "#111111"
