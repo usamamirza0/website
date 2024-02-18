@@ -5,13 +5,11 @@ title: 'MRI Reconstruction with Fourier-Constrained Diffusion Bridges'
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Onat Dalmaz
   - Muhammad U Mirza
+  - Onat Dalmaz
+  - Hasan A Bedel
   - Gokberk Elmas
-  - Muzaffer Özbey
-  - Salman UH Dar
-  - Emir Ceyani
-  - Salman Avestimehr
+  - Alper Gungor
   - Tolga Çukur
 
 date: '2022-11-29T00:00:00Z'
