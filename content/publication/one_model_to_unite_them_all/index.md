@@ -11,6 +11,7 @@ authors:
   - Muzaffer Özbey
   - Salman UH Dar
   - Emir Ceyani
+  - Kader K Oguz
   - Salman Avestimehr
   - Tolga Çukur
 
