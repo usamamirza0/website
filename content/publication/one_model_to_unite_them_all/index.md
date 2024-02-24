@@ -46,7 +46,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2207.06509'
+url_pdf: 'https://www.sciencedirect.com/science/article/pii/S136184152400046X'
 url_code: 'https://github.com/icon-lab/pFLSynth'
 url_dataset: ''
 url_poster: ''
