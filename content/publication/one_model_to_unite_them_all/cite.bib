@@ -1,8 +1,13 @@
-@misc{dalmaz2022model,
-      title={One Model to Unite Them All: Personalized Federated Learning of Multi-Contrast MRI Synthesis}, 
-      author={Onat Dalmaz and Usama Mirza and Gökberk Elmas and Muzaffer Özbey and Salman UH Dar and Emir Ceyani and Salman Avestimehr and Tolga Çukur},
-      year={2022},
-      eprint={2207.06509},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
+@article{DALMAZ2024103121,
+title = {One model to unite them all: Personalized federated learning of multi-contrast MRI synthesis},
+journal = {Medical Image Analysis},
+volume = {94},
+pages = {103121},
+year = {2024},
+issn = {1361-8415},
+doi = {https://doi.org/10.1016/j.media.2024.103121},
+url = {https://www.sciencedirect.com/science/article/pii/S136184152400046X},
+author = {Onat Dalmaz and Muhammad U. Mirza and Gokberk Elmas and Muzaffer Ozbey and Salman U.H. Dar and Emir Ceyani and Kader K. Oguz and Salman Avestimehr and Tolga Çukur},
+keywords = {Federated learning, Personalization, Heterogeneity, MRI, Synthesis, Translation},
+abstract = {Curation of large, diverse MRI datasets via multi-institutional collaborations can help improve learning of generalizable synthesis models that reliably translate source- onto target-contrast images. To facilitate collaborations, federated learning (FL) adopts decentralized model training while mitigating privacy concerns by avoiding sharing of imaging data. However, conventional FL methods can be impaired by the inherent heterogeneity in the data distribution, with domain shifts evident within and across imaging sites. Here we introduce the first personalized FL method for MRI Synthesis (pFLSynth) that improves reliability against data heterogeneity via model specialization to individual sites and synthesis tasks (i.e., source-target contrasts). To do this, pFLSynth leverages an adversarial model equipped with novel personalization blocks that control the statistics of generated feature maps across the spatial/channel dimensions, given latent variables specific to sites and tasks. To further promote communication efficiency and site specialization, partial network aggregation is employed over later generator stages while earlier generator stages and the discriminator are trained locally. As such, pFLSynth enables multi-task training of multi-site synthesis models with high generalization performance across sites and tasks. Comprehensive experiments demonstrate the superior performance and reliability of pFLSynth in MRI synthesis against prior federated methods.}
 }
