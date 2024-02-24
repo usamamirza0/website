@@ -16,7 +16,7 @@ authors:
   - Tolga Çukur
 
 date: '2022-07-13T00:00:00Z'
-doi: ''
+doi: 'https://doi.org/10.1016/j.media.2024.103121'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2022-07-13T00:00:00Z'
