@@ -22,8 +22,8 @@ publishDate: '2022-05-15T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication:
-publication_short:
+publication: 30th Signal Processing and Communications Applications Conference
+publication_short: SIU 2022
 
 abstract: Magnetic Resonance Imaging (MRI) is an imaging technique used to produce detailed anatomical images. Acquiring multiple contrast MRI images requires long scan times forcing the patient to remain still. Scan times can be reduced by synthesising unacquired contrasts from acquired contrasts. In recent years, deep generative adversarial networks have been used to synthesise contrasts using one-to-one mapping. Deeper networks can solve more complex functions, however, their performance can decline due to problems such as overfitting and vanishing gradients. In this study, we propose adding skip connections to generative models to overcome the decline in performance with increasing complexity. This will allow the network to bypass unnecessary parameters in the model. Our results show an increase in performance in one-to-one image synthesis by integrating skip connections.
 
