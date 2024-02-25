@@ -21,8 +21,8 @@ publishDate: '2023-07-05T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication:
-publication_short:
+publication: 31st Signal Processing and Communications Applications Conference 2023
+publication_short: SIU 2023
 
 abstract: MRI reconstruction is a process to generate high-quality images from the raw data obtained during magnetic resonance imaging. Diffusion models, a class of generative models, have become a popular method for MRI Reconstruction due to their ability to generate high quality images. Diffusion models work by adding Gaussian noise to the original image and training a network to remove the noise. Diffusion models can continue to generate high quality images even with a different type of noise added to the original image. In this study we combine a resolution decreasing operator with noise scheduling used by regular diffusion models, ResDiff to perform MRI Reconstruction. One of the biggest drawbacks of Diffusion models is the amount of time taken to generate images. Down-sampling images to a lower resolution requires fewer steps allowing ResDiff to achieve competitive results in far less time.
 
