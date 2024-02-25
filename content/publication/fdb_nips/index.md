@@ -25,8 +25,8 @@ publishDate: '2023-12-16T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication:
-publication_short:
+publication: Medical Imaging meets NeurIPS 2023
+publication_short: Medical Imaging meets NeurIPS 2023
 
 abstract: 'Diffusion-based image priors have gained recent traction in MRI reconstruction. Common diffusion priors use a multi-step transformation to map Gaussian noise onto fully-sampled MRI data. However, this transformation diverges from the desired reconstruction transformation from undersampled to fully-sampled data, yielding suboptimal results. To overcome this limitation, we introduce Fourier-constrained diffusion bridges (FDB; https://github.com/icon-lab/FDB) for accelerated MRI reconstruction. FDB learns a multi-step transformation from undersampled to fully-sampled data guided by two degradation operators: random noise addition and random frequency removal. Unlike common diffusion priors that use an asymptotic endpoint (e.g., Gaussian noise), FDB performs a finite transformation with an endpoint based on moderately degraded data. Unlike common diffusion bridges that assume learnable forward and backward processes, FDB improves learning by injecting a task-relevant Fourier-domain constraint via its frequency removal operator. Demonstrations on brain MRI show that FDB outperforms state-of-the-art reconstruction methods including previous diffusion priors.'
 
