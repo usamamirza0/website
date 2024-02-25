@@ -24,8 +24,8 @@ publishDate: '2023-07-05T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication:
-publication_short:
+publication: 31st Signal Processing and Communications Applications Conference 2023
+publication_short: SIU 2023
 
 abstract: Unconditional medical image synthesis is the task of generating realistic and diverse medical images from random noise without any prior information or constraints. Synthesizing realistic medical images can enrich the quality and diversity of medical imaging datasets, which in turn, enhance the performance and generalization of deep learning models for medical imaging. Prevalent approach for synthesizing medical images involves generative adversarial networks (GAN) or denoising diffusion probabilistic models (DDPM). However, GAN models that implicitly learn the image distribution are prone to limited sample fidelity and diversity. On the other hand, diffusion models suffer from slow sampling speed due to small diffusion steps. In this paper, we propose a novel diffusion-based method for unconditional medical image synthesis, Diff-Med-Synth, that generates realistic and diverse medical images from random noise. Diff-Med-Synth combines the advantages of denoising diffusion probabilistic models and GANs to achieve fast and efficient image sampling. We evaluate our method on two multi-contrast MRI datasets and show that it outperforms state-of-the-art methods in terms of quality, diversity, and fidelity of the synthesized images.
 
