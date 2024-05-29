@@ -3,7 +3,7 @@
 title: Usama Mirza
 
 # Full name (for SEO)
-first_name: Muhammad Usama
+first_name: Usama
 last_name: Mirza
 
 # Status emoji
