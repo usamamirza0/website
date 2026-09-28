@@ -6,8 +6,8 @@ title: 'pFLSynth: Personalized Federated Learning of Image Synthesis in Multi-Co
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Onat Dalmaz
-  - Muhammad U Mirza
-  - Gokberk Elmas
+  - admin
+  - Gökberk Elmas
   - Muzaffer Özbey
   - Salman UH Dar
   - Emir Ceyani
@@ -27,15 +27,15 @@ publishDate: '2022-12-02T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: Medical Imaging Meets NeurIPS 2022
+publication: Medical Imaging Meets NeurIPS Workshop 2022
 publication_short: MedNeurIPS 2022
 
 abstract: Multi-institutional collaborations are key for learning generalizable MRI synthesis models that translate source-onto target-contrast images. To facilitate collaboration, federated learning (FL) adopts decentralized training and mitigates privacy concerns by avoiding sharing of imaging data. However, FL-trained synthesis models can be impaired by the inherent heterogeneity in the data distribution, with domain shifts evident when common or variable translation tasks are prescribed across sites. Here we introduce the first personalized FL method for MRI Synthesis (pFLSynth) to improve reliability against domain shifts. pFLSynth is based on an adversarial model that produces latents specific to individual sites and source-target contrasts, and leverages novel personalization blocks to adaptively tune the statistics and weighting of feature maps across the generator stages given latents. To further promote site specificity, partial model aggregation is employed over downstream layers of the generator while upstream layers are retained locally. As such, pFLSynth enables training of a unified synthesis model that can reliably generalize across multiple sites and translation tasks. Comprehensive experiments on multisite datasets clearly demonstrate the enhanced performance of pFLSynth against prior federated methods in multi-contrast MRI synthesis.
 
 # Summary. An optional shortened abstract.
-summary: Presented in NeurIPS Medical Imaging Meets 2022
+summary: Presented at the Medical Imaging Meets NeurIPS Workshop 2022
 
-tags: []
+tags: ['Abstract']
 
 # Display this page in the Featured widget?
 featured: false
@@ -57,7 +57,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ''
   preview_only: false
 ---

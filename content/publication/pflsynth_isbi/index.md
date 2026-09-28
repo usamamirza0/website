@@ -1,13 +1,13 @@
 ---
-title: 'Personalized, Federated, And Unified MRI Contrast Synthesis'
+title: 'Personalized, Federated, and Unified MRI Contrast Synthesis'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Onat Dalmaz
-  - Muhammad U Mirza
-  - Gokberk Elmas
+  - admin
+  - Gökberk Elmas
   - Muzaffer Özbey
   - Salman UH Dar
   - Emir Ceyani
@@ -27,7 +27,7 @@ publishDate: '2023-04-18T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: International Symposium on Biomedical Imaging
+publication: IEEE 20th International Symposium on Biomedical Imaging (ISBI)
 publication_short: ISBI 2023
 
 abstract:
@@ -35,7 +35,7 @@ abstract:
 # Summary. An optional shortened abstract.
 summary: Presented in IEEE 20th International Symposium on Biomedical Imaging (ISBI), 2023
 
-tags: []
+tags: ['Conference Paper']
 
 # Display this page in the Featured widget?
 featured: false
@@ -57,7 +57,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ''
   preview_only: false
 ---

@@ -6,17 +6,17 @@ title: 'One Model to Unite Them All: Personalized Federated Learning of Multi-Co
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Onat Dalmaz
-  - Muhammad U Mirza
-  - Gokberk Elmas
+  - admin
+  - Gökberk Elmas
   - Muzaffer Özbey
   - Salman UH Dar
   - Emir Ceyani
-  - Kader K Oguz
+  - Kader K Oğuz
   - Salman Avestimehr
   - Tolga Çukur
 
-date: '2024-02-23T00:00:00Z'
-doi: 'https://doi.org/10.1016/j.media.2024.103121'
+date: '2024-05-01T00:00:00Z'
+doi: '10.1016/j.media.2024.103121'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-02-23T00:00:00Z'
@@ -28,13 +28,13 @@ publishDate: '2024-02-23T00:00:00Z'
 publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
-publication: '*Medical Image Analysis*'
-publication_short: '*MEDIA*'
+publication: '*Medical Image Analysis*, vol. 94, p. 103121'
+publication_short: '*MedIA*'
 
 abstract: Curation of large, diverse MRI datasets via multi-institutional collaborations can help improve learning of generalizable synthesis models that reliably translate source- onto target-contrast images. To facilitate collaborations, federated learning (FL) adopts decentralized model training while mitigating privacy concerns by avoiding sharing of imaging data. However, conventional FL methods can be impaired by the inherent heterogeneity in the data distribution, with domain shifts evident within and across imaging sites. Here we introduce the first personalized FL method for MRI Synthesis (pFLSynth) that improves reliability against data heterogeneity via model specialization to individual sites and synthesis tasks (i.e., source-target contrasts). To do this, pFLSynth leverages an adversarial model equipped with novel personalization blocks that control the statistics of generated feature maps across the spatial/channel dimensions, given latent variables specific to sites and tasks. To further promote communication efficiency and site specialization, partial network aggregation is employed over later generator stages while earlier generator stages and the discriminator are trained locally. As such, pFLSynth enables multi-task training of multi-site synthesis models with high generalization performance across sites and tasks. Comprehensive experiments demonstrate the superior performance and reliability of pFLSynth in MRI synthesis against prior federated methods.
 
 # Summary. An optional shortened abstract.
-summary: Curation of large, diverse MRI datasets via multi-institutional collaborations can help improve learning of generalizable synthesis models that reliably translate source- onto target-contrast images. To facilitate collaborations, federated learning (FL) adopts decentralized model training while mitigating privacy concerns by avoiding sharing of imaging data. However, conventional FL methods can be impaired by the inherent heterogeneity in the data distribution, with domain shifts evident within and across imaging sites. Here we introduce the first personalized FL method for MRI Synthesis (pFLSynth) that improves reliability against data heterogeneity via model specialization to individual sites and synthesis tasks (i.e., source-target contrasts). To do this, pFLSynth leverages an adversarial model equipped with novel personalization blocks that control the statistics of generated feature maps across the spatial/channel dimensions, given latent variables specific to sites and tasks. To further promote communication efficiency and site specialization, partial network aggregation is employed over later generator stages while earlier generator stages and the discriminator are trained locally. As such, pFLSynth enables multi-task training of multi-site synthesis models with high generalization performance across sites and tasks. Comprehensive experiments demonstrate the superior performance and reliability of pFLSynth in MRI synthesis against prior federated methods.
+summary: We introduce pFLSynth, the first personalized federated learning method for multi-contrast MRI synthesis, which improves reliability against data heterogeneity via model specialization to individual sites and synthesis tasks.
 
 tags: []
 
@@ -58,7 +58,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ''
   preview_only: false
 ---

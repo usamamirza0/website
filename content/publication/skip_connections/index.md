@@ -5,12 +5,12 @@ title: 'Skip Connections for Medical Image Synthesis with Generative Adversarial
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Muhammad U Mirza
+  - admin
   - Onat Dalmaz
   - Tolga Çukur
 
 date: '2022-05-15T00:00:00Z'
-doi: ''
+doi: '10.1109/SIU55565.2022.9864939'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2022-05-15T00:00:00Z'
@@ -22,7 +22,7 @@ publishDate: '2022-05-15T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: 30th Signal Processing and Communications Applications Conference
+publication: 30th Signal Processing and Communications Applications Conference (SIU), Karabük, Türkiye
 publication_short: SIU 2022
 
 abstract: Magnetic Resonance Imaging (MRI) is an imaging technique used to produce detailed anatomical images. Acquiring multiple contrast MRI images requires long scan times forcing the patient to remain still. Scan times can be reduced by synthesising unacquired contrasts from acquired contrasts. In recent years, deep generative adversarial networks have been used to synthesise contrasts using one-to-one mapping. Deeper networks can solve more complex functions, however, their performance can decline due to problems such as overfitting and vanishing gradients. In this study, we propose adding skip connections to generative models to overcome the decline in performance with increasing complexity. This will allow the network to bypass unnecessary parameters in the model. Our results show an increase in performance in one-to-one image synthesis by integrating skip connections.
@@ -30,7 +30,7 @@ abstract: Magnetic Resonance Imaging (MRI) is an imaging technique used to produ
 # Summary. An optional shortened abstract.
 summary: Presented in 30th Signal Processing and Communications Applications Conference (SIU 2022)
 
-tags: []
+tags: ['Conference Paper']
 
 # Display this page in the Featured widget?
 featured: false
@@ -52,7 +52,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ''
   preview_only: false
 ---

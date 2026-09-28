@@ -6,14 +6,14 @@ title: 'A Specificity-Preserving Generative Model for Federated MRI Translation'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Onat Dalmaz
-  - Muhammad U Mirza
-  - Gokberk Elmas
+  - admin
+  - Gökberk Elmas
   - Muzaffer Özbey
   - Salman UH Dar
   - Tolga Çukur
 
 date: '2022-09-22T00:00:00Z'
-doi: ''
+doi: '10.1007/978-3-031-18523-6_8'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2022-09-22T00:00:00Z'
@@ -25,15 +25,15 @@ publishDate: '2022-09-22T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: MICCAI Workshop on “Distributed, Collaborative and Federated Learning”
+publication: 3rd MICCAI Workshop on Distributed, Collaborative, and Federated Learning (DeCaF), LNCS vol. 13573, pp. 79–88
 publication_short: MICCAI-DeCaF 2022
 
 abstract: MRI translation models learn a mapping from an acquired source contrast to an unavailable target contrast. Collaboration between institutes is essential to train translation models that can generalize across diverse datasets. That said, aggregating all imaging data and training a centralized model poses privacy problems. Recently, federated learning (FL) has emerged as a collaboration framework that enables decentralized training to avoid sharing of imaging data. However, FL-trained translation models can deteriorate by the inherent heterogeneity in the distribution of MRI data. To improve reliability against domain shifts, here we introduce a novel specificity-preserving FL method for MRI contrast translation. The proposed approach is based on an adversarial model that adaptively normalizes the feature maps across the generator based on site-specific latent variables. Comprehensive FL experiments were conducted on multi-site datasets to show the effectiveness of the proposed approach against prior federated methods in MRI contrast translation.
 
 # Summary. An optional shortened abstract.
-summary: Presented in MICCAI Workshop on “Distributed, Collaborative and Federated Learning” (MICCAI-DeCaF 2022)
+summary: Presented at the 3rd MICCAI Workshop on Distributed, Collaborative, and Federated Learning (MICCAI-DeCaF 2022)
 
-tags: []
+tags: ['Conference Paper']
 
 # Display this page in the Featured widget?
 featured: false
@@ -55,7 +55,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ''
   preview_only: false
 ---

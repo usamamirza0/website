@@ -6,8 +6,8 @@ title: 'A Personalized Federated Learning Approach for Multi-Contrast MRI Transl
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Onat Dalmaz
-  - Muhammad U Mirza
-  - Gokberk Elmas
+  - admin
+  - Gökberk Elmas
   - Muzaffer Özbey
   - Salman UH Dar
   - Emir Ceyani
@@ -27,15 +27,15 @@ publishDate: '2023-06-03T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: International Society for Magnetic Resonance Imaging
+publication: 31st Annual Meeting of the International Society for Magnetic Resonance in Medicine (ISMRM), Toronto, Canada
 publication_short: ISMRM 2023
 
 abstract:
 
 # Summary. An optional shortened abstract.
-summary: Presented in 31st annual meeting of International Society for Magnetic Resonance Imaging (ISMRM), 2023
+summary: Presented at the 31st Annual Meeting of ISMRM, 2023
 
-tags: []
+tags: ['Abstract']
 
 # Display this page in the Featured widget?
 featured: false
@@ -57,7 +57,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ''
   preview_only: false
 ---

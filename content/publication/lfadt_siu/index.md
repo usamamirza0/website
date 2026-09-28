@@ -1,22 +1,20 @@
 ---
-title: 'Accelerated MRI Reconstruction with Fourier-Constrained Diffusion Bridges'
+title: 'Low-Frequency Anchored Diffusion Transition Process for MRI Reconstruction'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Onat Dalmaz
-  - Hasan A Bedel
-  - Gökberk Elmas
-  - Alper Güngör
+  - Efe Ozdilek
+  - Esin Öztürk-Işık
   - Tolga Çukur
 
-date: '2024-05-07T00:00:00Z'
-doi: ''
+date: '2026-07-07T00:00:00Z'
+doi: '10.1109/SIU71813.2026.11636641'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-05-07T00:00:00Z'
+publishDate: '2026-07-07T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -25,26 +23,21 @@ publishDate: '2024-05-07T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: 32nd Annual Meeting of the International Society for Magnetic Resonance in Medicine (ISMRM), Singapore
-publication_short: ISMRM 2024
+publication: 34th Signal Processing and Communications Applications Conference (SIU), Istanbul, Türkiye
+publication_short: SIU 2026
 
 abstract:
 
 # Summary. An optional shortened abstract.
-summary: Oral presentation at the 32nd Annual Meeting of ISMRM, 2024 — **Summa Cum Laude Merit Award**
+summary: Presented in 34th Signal Processing and Communications Applications Conference (SIU 2026)
 
-tags: ['Abstract']
+tags: ['Conference Paper']
 
 # Display this page in the Featured widget?
 featured: false
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: 'https://github.com/icon-lab/FDB'
+url_pdf: 'https://ieeexplore.ieee.org/abstract/document/11636641'
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
