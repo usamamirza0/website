@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Usama Mirza. This work is licensed under {license}'
+    notice: '© {year} Usama Mirza · {license}'
     license:
       enable: true
       allow_derivatives: false

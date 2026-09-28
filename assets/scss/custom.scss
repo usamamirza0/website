@@ -123,3 +123,85 @@ $dark-card-border: rgba(255, 255, 255, 0.07);
   background: rgba(38, 157, 255, 0.14);
   color: #cfe6ff;
 }
+
+// ---------------------------------------------------------------------------
+// Layout and typography polish.
+// ---------------------------------------------------------------------------
+
+// Less vertical space between homepage sections (theme default: 110px).
+@media screen and (min-width: 769px) {
+  .home-section {
+    padding: 80px 0;
+  }
+}
+
+// Comfortable line length (~75 characters) for the bio.
+#about .article-style {
+  max-width: 38rem;
+}
+
+// Experience descriptions default to 0.75rem; bring them closer to body text.
+// The theme sets its size with !important.
+.experience .card-text,
+.experience .card-text p {
+  font-size: 0.86rem !important;
+}
+
+// Citation lists: make paper titles stand out from the author list.
+.view-citation > a {
+  font-weight: 600;
+}
+
+// Site name in the heading font.
+.navbar-brand {
+  font-family: $sta-font-heading, serif;
+  font-weight: 600;
+}
+
+// Footer: keep only the copyright and licence line. All footer paragraphs
+// share the .powered-by class, so hide the licence icons and the
+// "Published with Wowchemy" line by exclusion.
+.site-footer .footer-license-icons,
+.site-footer .powered-by:not(.copyright-license-text):not(.footer-license-icons) {
+  display: none;
+}
+
+// Honors & Awards as a compact list.
+.award-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: flex;
+    gap: 1.25rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    line-height: 1.5;
+  }
+
+  li:first-child {
+    padding-top: 0;
+  }
+
+  li:last-child {
+    border-bottom: 0;
+  }
+
+  .award-year {
+    flex: 0 0 3.5rem;
+    font-family: $sta-font-heading, serif;
+    font-weight: 600;
+    color: $sta-primary;
+  }
+}
+
+.dark .award-list {
+  li {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .award-year {
+    color: #5cb3ff;
+  }
+}

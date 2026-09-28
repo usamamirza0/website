@@ -95,22 +95,15 @@ sections:
             * Prepared neural network models in Python for FPGA deployment.
     design:
       columns: '2'
-  - block: accomplishments
+  - block: markdown
     id: awards
     content:
       title: Honors & Awards
-      date_format: '2006'
-      items:
-        - title: ISMRM Summa Cum Laude Merit Award
-          organization: International Society for Magnetic Resonance in Medicine (ISMRM), Singapore
-          organization_url: 'https://www.ismrm.org/'
-          date_start: '2024-05-04'
-          description: Oral presentation on Fourier-constrained diffusion bridges for accelerated MRI
-        - title: Outstanding Cambridge Learner Award
-          organization: Cambridge Assessment International Education
-          organization_url: 'https://www.cambridgeinternational.org/'
-          date_start: '2015-01-01'
-          description: Highest mark in the world in O-Level Mathematics
+      text: |-
+        <ul class="award-list">
+        <li><span class="award-year">2024</span><div><strong>ISMRM Summa Cum Laude Merit Award</strong><br>International Society for Magnetic Resonance in Medicine (ISMRM), Singapore. Oral presentation on Fourier-constrained diffusion bridges for accelerated MRI.</div></li>
+        <li><span class="award-year">2015</span><div><strong>Outstanding Cambridge Learner Award</strong><br>Cambridge Assessment International Education. Highest mark in the world in O-Level Mathematics.</div></li>
+        </ul>
     design:
       columns: '2'
 ---
