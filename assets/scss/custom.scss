@@ -1,0 +1,17 @@
+// Custom styles, imported last by the Wowchemy theme.
+
+// Dark mode: links in experience cards use the light-theme primary (#1565c0),
+// which is unreadable on the dark card background (2:1 contrast).
+// #5cb3ff gives ~5.1:1 on the card background.
+.dark .experience .card .section-subheading a,
+.dark .experience .card .card-text a {
+  color: #5cb3ff;
+}
+
+// Keep the six profile icons on one row: the sidebar column is narrowest
+// between the lg breakpoint and ~1280px wide. Default is 2rem (42px).
+@media (min-width: 992px) {
+  #profile .network-icon .big-icon {
+    font-size: 1.7rem;
+  }
+}
