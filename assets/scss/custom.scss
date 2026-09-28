@@ -141,8 +141,10 @@ $dark-card-border: rgba(255, 255, 255, 0.07);
 }
 
 // Experience descriptions default to 0.75rem; bring them closer to body text.
-.experience .card-text {
-  font-size: 0.86rem;
+// The theme sets its size with !important.
+.experience .card-text,
+.experience .card-text p {
+  font-size: 0.86rem !important;
 }
 
 // Citation lists: make paper titles stand out from the author list.
@@ -156,8 +158,11 @@ $dark-card-border: rgba(255, 255, 255, 0.07);
   font-weight: 600;
 }
 
-// Footer: keep only the copyright and licence line.
-.site-footer .powered-by {
+// Footer: keep only the copyright and licence line. All footer paragraphs
+// share the .powered-by class, so hide the licence icons and the
+// "Published with Wowchemy" line by exclusion.
+.site-footer .footer-license-icons,
+.site-footer .powered-by:not(.copyright-license-text):not(.footer-license-icons) {
   display: none;
 }
 
