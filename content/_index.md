@@ -14,7 +14,8 @@ sections:
   - block: collection
     id: publication
     content:
-      title: Journal Publications
+      title: Publications
+      text: '### Journal Articles'
       # Show all items (the default is 5)
       count: 0
       filters:
@@ -24,10 +25,12 @@ sections:
     design:
       columns: '2'
       view: card
+  # The next two blocks have no title so they read as a continuation of
+  # Publications (see assets/scss/custom.scss).
   - block: collection
     id: conf
     content:
-      title: Conference Papers
+      text: '### Conference Papers'
       count: 0
       filters:
         folders:
@@ -35,11 +38,11 @@ sections:
         tag: Conference Paper
     design:
       columns: '2'
-      view: card
+      view: citation
   - block: collection
     id: abstracts
     content:
-      title: Conference Abstracts & Workshop Papers
+      text: '### Conference Abstracts & Workshop Papers'
       count: 0
       filters:
         folders:
@@ -47,7 +50,7 @@ sections:
         tag: Abstract
     design:
       columns: '2'
-      view: card
+      view: citation
   - block: experience
     id: experience
     content:

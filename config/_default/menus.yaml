@@ -10,12 +10,6 @@ main:
   - name: Publications
     url: '#publication'
     weight: 20
-  - name: Conferences
-    url: '#conf'
-    weight: 30
-  - name: Abstracts
-    url: '#abstracts'
-    weight: 35
   - name: Experience
     url: '#experience'
     weight: 40

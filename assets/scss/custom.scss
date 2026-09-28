@@ -1,17 +1,125 @@
 // Custom styles, imported last by the Wowchemy theme.
+// Theme variables ($sta-*) come from data/themes/mytheme.toml.
 
-// Dark mode: links in experience cards use the light-theme primary (#1565c0),
-// which is unreadable on the dark card background (2:1 contrast).
-// #5cb3ff gives ~5.1:1 on the card background.
+// ---------------------------------------------------------------------------
+// Dark mode: cards share the page's blue-grey tint instead of neutral grey.
+// ---------------------------------------------------------------------------
+
+$dark-card: #1b212c;
+$dark-card-border: rgba(255, 255, 255, 0.07);
+
+.dark .card,
+.dark .card-simple {
+  background: $dark-card;
+  border: 1px solid $dark-card-border;
+}
+
+// Links in experience cards otherwise use the light-theme primary (#1565c0),
+// which is unreadable on the dark card background.
 .dark .experience .card .section-subheading a,
 .dark .experience .card .card-text a {
   color: #5cb3ff;
 }
 
-// Keep the six profile icons on one row: the sidebar column is narrowest
-// between the lg breakpoint and ~1280px wide. Default is 2rem (42px).
-@media (min-width: 992px) {
-  #profile .network-icon .big-icon {
-    font-size: 1.7rem;
+// ---------------------------------------------------------------------------
+// Section headings: size them to fit the narrow title column so words such as
+// "Publications" never break mid-word.
+// ---------------------------------------------------------------------------
+
+.section-heading h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  overflow-wrap: normal;
+  word-wrap: normal;
+  word-break: normal;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .section-heading h1 {
+    font-size: 2rem;
   }
+}
+
+// ---------------------------------------------------------------------------
+// Publications: the untitled #conf and #abstracts blocks continue the
+// #publication section, so they share its background, align under its content
+// column and drop the gaps between them.
+// ---------------------------------------------------------------------------
+
+#publication,
+#conf,
+#abstracts {
+  background: $sta-home-section-even;
+}
+
+.dark #publication,
+.dark #conf,
+.dark #abstracts {
+  background: $sta-dark-home-section-even;
+}
+
+#publication,
+#conf {
+  padding-bottom: 30px;
+}
+
+#conf,
+#abstracts {
+  padding-top: 0;
+
+  .row {
+    justify-content: flex-end !important;
+  }
+}
+
+#publication .col-lg-8 > h3,
+#conf .col-lg-8 > h3,
+#abstracts .col-lg-8 > h3 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dark #publication .col-lg-8 > h3,
+.dark #conf .col-lg-8 > h3,
+.dark #abstracts .col-lg-8 > h3 {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.view-citation {
+  margin-bottom: 1.25rem !important;
+}
+
+// ---------------------------------------------------------------------------
+// About: show research interests as tags instead of a bulleted book-icon list.
+// ---------------------------------------------------------------------------
+
+.ul-interests.fa-ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-left: 0;
+  padding-left: 0;
+
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0.3rem 0.8rem;
+    border-radius: 999px;
+    background: rgba(21, 101, 192, 0.08);
+    color: #0d47a1;
+    font-size: 0.85rem;
+    line-height: 1.35;
+  }
+
+  .fa-li {
+    display: none;
+  }
+}
+
+.dark .ul-interests.fa-ul li {
+  background: rgba(38, 157, 255, 0.14);
+  color: #cfe6ff;
 }
