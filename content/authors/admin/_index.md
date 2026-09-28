@@ -26,10 +26,13 @@ bio: My research focuses on generative models (diffusion models, GANs) for compu
 
 # Interests to show in About widget
 interests:
-  - Generative Models (Diffusion Models, GANs)
-  - Computational Imaging & Inverse Problems
-  - Accelerated MRI Reconstruction
-  - Multi-Contrast MRI Synthesis
+  - Generative Models
+  - Diffusion Models
+  - GANs
+  - Computational Imaging
+  - Inverse Problems
+  - Accelerated MRI
+  - MRI Synthesis
   - Federated Learning
 
 # Education to show in About widget
