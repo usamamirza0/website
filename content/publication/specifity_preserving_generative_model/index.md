@@ -31,7 +31,7 @@ publication_short: MICCAI-DeCaF 2022
 abstract: MRI translation models learn a mapping from an acquired source contrast to an unavailable target contrast. Collaboration between institutes is essential to train translation models that can generalize across diverse datasets. That said, aggregating all imaging data and training a centralized model poses privacy problems. Recently, federated learning (FL) has emerged as a collaboration framework that enables decentralized training to avoid sharing of imaging data. However, FL-trained translation models can deteriorate by the inherent heterogeneity in the distribution of MRI data. To improve reliability against domain shifts, here we introduce a novel specificity-preserving FL method for MRI contrast translation. The proposed approach is based on an adversarial model that adaptively normalizes the feature maps across the generator based on site-specific latent variables. Comprehensive FL experiments were conducted on multi-site datasets to show the effectiveness of the proposed approach against prior federated methods in MRI contrast translation.
 
 # Summary. An optional shortened abstract.
-summary: Presented at the 3rd MICCAI Workshop on Distributed, Collaborative, and Federated Learning (MICCAI-DeCaF 2022)
+summary: 'A federated MRI contrast translation model that adaptively normalizes generator feature maps with site-specific latent variables to stay reliable under domain shifts.'
 
 tags: ['Conference Paper']
 

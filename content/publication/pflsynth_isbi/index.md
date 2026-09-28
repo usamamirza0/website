@@ -33,7 +33,7 @@ publication_short: ISBI 2023
 abstract:
 
 # Summary. An optional shortened abstract.
-summary: Presented in IEEE 20th International Symposium on Biomedical Imaging (ISBI), 2023
+summary: 'A personalized federated learning approach that trains one unified MRI contrast synthesis model across institutions while adapting to each site and task.'
 
 tags: ['Conference Paper']
 

@@ -31,7 +31,7 @@ publication_short: ISMRM 2024
 abstract:
 
 # Summary. An optional shortened abstract.
-summary: Oral presentation at the 32nd Annual Meeting of ISMRM, 2024 — **Summa Cum Laude Merit Award**
+summary: 'Fourier-constrained diffusion bridges for accelerated MRI reconstruction. Oral presentation — **Summa Cum Laude Merit Award**.'
 
 tags: ['Abstract']
 

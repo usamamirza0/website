@@ -29,7 +29,7 @@ publication_short: SIU 2026
 abstract:
 
 # Summary. An optional shortened abstract.
-summary: Presented in 34th Signal Processing and Communications Applications Conference (SIU 2026)
+summary: 'A diffusion transition process for accelerated MRI reconstruction that is anchored on low-frequency k-space data.'
 
 tags: ['Conference Paper']
 

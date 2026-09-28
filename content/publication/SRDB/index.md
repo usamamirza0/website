@@ -28,7 +28,7 @@ publication_short: SIU 2024
 abstract: Magnetic Resonance Imaging (MRI) is a powerful medical imaging modality that provides high-resolution anatomical information about tissues. However, the intrinsic trade-off between acquisition time and image quality poses challenges in obtaining high-resolution images within a clinically feasible timeframe. This study introduces a novel approach to acquire high-resolution images in short scan times based on Super-Resolution Diffusion Bridges (SRDB). The proposed method leverages advanced machine learning techniques based on diffusion models to upscale MR images. While standard diffusion models learn a mapping from Gaussian distributed noise images to target images, SRDB instead learns a mapping from low-resolution MR images to high-resolution images. Unlike the task-independent learning in standard diffusion model, SRDB thus performs task-based learning to improve structural consistency and better preservation of anatomical features. In this way, the trained models help capture fine details that may be missed in standard low-resolution MRI acquisitions.
 
 # Summary. An optional shortened abstract.
-summary: Presented in 32nd Signal Processing and Communications Applications Conference (SIU 2024)
+summary: 'Super-Resolution Diffusion Bridges (SRDB) learn a direct mapping from low- to high-resolution MR images instead of starting from Gaussian noise, improving structural consistency.'
 
 tags: ['Conference Paper']
 

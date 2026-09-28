@@ -33,7 +33,7 @@ publication_short: ISMRM 2023
 abstract:
 
 # Summary. An optional shortened abstract.
-summary: Presented at the 31st Annual Meeting of ISMRM, 2023
+summary: 'A personalized federated learning approach for multi-contrast MRI translation across institutions with heterogeneous data.'
 
 tags: ['Abstract']
 
